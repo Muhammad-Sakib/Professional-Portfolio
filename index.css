@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-
+    margin: 0px;
 }
 .yellow-h1{
     color: darkorange;
@@ -9,9 +9,11 @@ body{
     color: red;
 }
 #first{
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 550px;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
 .welcome-text{
     width: 50%;
@@ -21,7 +23,7 @@ body{
     font-size: 50px;
 }
 .welcome-text h3{
-    color: orangered;
+    color: #FFAC2C;
 }
 .welcome-text p{
     color: gray;
@@ -29,7 +31,7 @@ body{
 }
 .hire-me{ 
     padding: 10px;
-    background-color: #e86209;
+    background-image: linear-gradient(90deg,tomato,red);
     border: none;
     border-radius: 5px;
     color: white;
@@ -38,20 +40,22 @@ body{
     text-decoration: none;
 }
 .hire-me:hover{
-    background-color: orange;
+    background-image: linear-gradient(90deg,red,tomato);
     border-radius: 15px;
 }
 .pro-pic{
     margin-left: 10%;
-    width: 40%;
-    width: 40%;
+    width: 38%;
+    width: 38%;
     transition-delay: 0.1s;
     transition-duration: 2s;
 }
 #sec{
     width: 100%;
     height: 500px;
-
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .pro-pic2{
     margin-left: 10%;
@@ -74,7 +78,7 @@ body{
     font-size: 50px;
 }
 .sec-text h3{
-    color: orangered;
+    color: #FFAC2C;
 }
 .sec-text h1:hover{
     color: red;
@@ -85,6 +89,9 @@ body{
 #third{
     width: 100%;
     height: 500px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 #third h1{
     font-size: 50px;
@@ -92,12 +99,15 @@ body{
 
 }
 .card{
+    background-color: white;
     width: 44%;
     margin-left: 3%;
     padding-left: 10px;
     height: 350px;
-    box-shadow: 10px 10px 10px 10px gray;
-    border-left: 10px solid orangered;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid ;
+    border-image: linear-gradient(0deg,orange,red);
+    border-image-slice: 1;
     border-radius: 10px;
     float: left;
     transition: 1s;
@@ -106,16 +116,21 @@ body{
     font-size: 40px !important;
     text-align: left !important;
 }
+.card h3{
+    color: #FFAC2C;
+}
 .card p{
     color: gray;
 }
 .card:hover{
     position: relative;
     top: -30px;
-    border-radius: 100px;
+    
 }
 .blue{
-    border-left: 10px solid blue ;
+    border-left: 10px solid !important;
+    border-image: linear-gradient(0deg,cyan,blue) !important;
+    border-image-slice: 1 !important;
 }
 footer{
     margin-top: 40px;

@@ -1,0 +1,23 @@
+.main{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.s{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 109px;
+    left: 109px;
+    
+}.t{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
